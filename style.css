@@ -1,0 +1,253 @@
+body {
+font-family : 'Orbitron', sans-serif;
+}
+header {
+position : relative;
+}
+.background-image:hover {
+transition : all 1000ms;
+box-shadow : 42px -53px 66px 9px rgb(0, 0, 0, 0.75) inset;
+height : 400px;
+}
+a {
+text-decoration : none;
+color : inherit;
+}
+.menu-toggle {
+width : 5rem;
+height : 5rem;
+position : absolute;
+top : 1rem;
+left : 1rem;
+align-items : center;
+justify-content : center;
+cursor : pointer;
+outline : none;
+display : none;
+z-index : 1;
+}
+nav {
+position : relative;
+display : flex;
+justify-content : space-between;
+border-bottom : 1px solid rgb(0, 0, 0, 0.075);
+z-index : 2;
+background-color : #e4efe7;
+color : rgb(0, 0, 0, 0.7);
+}
+nav ul {
+cursor : pointer;
+height : 8rem;
+list-style : none;
+display : flex;
+font-size : 1.2rem;
+}
+nav ul li {
+padding : 1rem 1rem;
+line-height : 2;
+transition : background-color 0.5s;
+}
+nav ul li:hover {
+background-color : rgb(0, 0, 0, 0.075);
+transform : scale(1.02);
+text-shadow : 0 1px;
+}
+.logo {
+box-sizing : content-box;
+width : 7rem;
+}
+.logo img {
+cursor : pointer;
+display : block;
+width : 100%;
+}
+.background-image img {
+width : 100%;
+}
+#about {
+margin : 15px;
+}
+.row {
+display : flex;
+flex-direction : row;
+flex-wrap : wrap;
+width : 100%;
+}
+.column {
+display : flex;
+flex-direction : column;
+flex-basis : 100%;
+flex : 1;
+}
+.intro_media {
+background-image : url("https://media1.tenor.com/images/48a23c94b30b6956fd360e11fa660aba/tenor.gif?itemid=14625293");
+background-repeat : no-repeat;
+height : 420px;
+}
+.intro_text {
+height : 500px;
+padding : 60px 10px 20px 20px;
+}
+.intro_text > h1 {
+line-height : 4;
+}
+.title {
+margin : 0 auto;
+padding : 20px 10px 20px 10px;
+}
+.title > h1 {
+font-family : 'Orbitron', sans-serif;
+text-align : center;
+text-transform : uppercase;
+font-size : 30px;
+}
+.center {
+text-align : center;
+}
+.description {
+padding : 10px 5px 10px 5px;
+}
+.description > p {
+font-family : 'Alegreya Sans', sans-serif;
+font-weight : 100;
+line-height : 3;
+text-align : center;
+}
+.transform {
+font-size : 19px;
+}
+p.mention {
+font-family : 'Orbitron', sans-serif;
+text-align : center;
+font-size : 14px;
+}
+.container-info {
+display : block;
+padding : 4rem;
+}
+h2 {
+font-family : 'Orbitron', sans-serif;
+text-transform : uppercase;
+justify-content : center;
+text-align : center;
+font-size : 30px;
+letter-spacing : 30px;
+margin : 0 auto;
+padding : 4px;
+}
+span {
+font-family : 'Orbitron', sans-serif;
+color : orange;
+text-transform : uppercase;
+}
+.container-text {
+display : grid;
+grid-template-columns : 1fr 1fr;
+}
+.button {
+width : 250px;
+height : 250px;
+padding : 6rem;
+margin : 0 auto;
+margin-top : 2rem;
+margin-bottom : 6rem;
+}
+.button, .btn-text {
+color : black;
+font-size : 9rem;
+font-weight : 900;
+text-decoration : none;
+text-align : center;
+align-items : center;
+}
+.animated-scale:hover {
+transition : all 2000ms;
+background-color : #fafafa;
+color : rgb(0, 0, 0, 0.8);
+}
+.btn-1:hover {
+background-color : #ffdb58;
+transition : 2000ms;
+animation-delay : 0.5s;
+padding-right : 1px;
+border-radius : 20%;
+}
+.btn-2:hover {
+background-color : rgb(0, 0, 0, 0.9);
+color : #ffdb58;
+transition : 2000ms;
+animation-delay : 0.5s;
+padding-right : 1px;
+box-shadow : 7px 31px 12px -10px rgb(0, 0, 0, 0.9);
+border-radius : 20%;
+word-spacing : -4px;
+}
+.btn-text {
+font-weight : 100;
+justify-content : center;
+word-spacing : -10px;
+}
+h3.bold {
+text-align : center;
+font-family : 'Orbitron', sans-serif;
+text-transform : uppercase;
+}
+.container-contact {
+font-family : 'Open Sans Condensed', sans-serif;
+height : 50vh;
+background-color : rgb(0, 0, 0, 0.9);
+background-size : cover;
+display : grid;
+grid-template-columns : 1fr 1fr;
+}
+.contact_text h1 {
+color : #fafafa;
+font-size : 40px;
+letter-spacing : 2px;
+line-height : 2;
+margin-top : 5rem;
+font-weight : 100;
+margin-left : 3rem;
+}
+.contact_text p {
+color : #fafafa;
+font-size : 15px;
+letter-spacing : 10px;
+margin-left : 50px;
+line-height : 3;
+}
+.contact_info h1 {
+font-family : 'Orbitron', sans-serif;
+margin-top : 2rem;
+color : rgb(0, 0, 0, 0.9);
+font-size : 70px;
+margin-left : 11rem;
+font-weight : 200;
+letter-spacing : 5px;
+}
+.contact_info p {
+color : #e4efe7;
+letter-spacing : 7px;
+line-height : 1;
+font-size : 20px;
+padding-left : 13rem;
+margin-top : 5rem;
+font-weight : 100;
+}
+a.orange {
+text-decoration : none;
+color : orange;
+font-weight : 100;
+font-size : 18px;
+}
+.contact_info {
+background-color : #FFFFFF;
+color : orange;
+font-weight : 100;
+}
+footer {
+padding : 1.2rem;
+justify-content : center;
+display : block;
+text-align : center;
+}
