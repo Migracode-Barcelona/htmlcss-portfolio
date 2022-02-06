@@ -1,8 +1,27 @@
 /**
  * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+ **/
+ body{
+   
+     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
+     ,url("1.jpeg");
+     margin: 0px;
+     padding: 0px;
+     background-size: cover;
+     background-position: center;
+   
+ } 
+ .header{
+     padding: 60px;
+     text-align: right;
+     color: black;
+     font-size: 30px;
+     
+ }
+ section{
+     width: 30%;
+     height: 95vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ 
