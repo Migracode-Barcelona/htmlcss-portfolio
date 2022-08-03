@@ -6,3 +6,22 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ .bg-light {
+    background-color: #71DFE7 !important
+ }
+
+ .navbar-brand, .nav-link {
+    color: rgb(10, 2, 77) !important; 
+    font-family: sans-serif;
+ }
+
+ .navbar-brand {
+    display: flex;
+    padding-top: 1em;
+ }
+
+ .navbar-brand > p {
+    margin-top: 0.2em;
+    margin-left: 0.2em;
+ }
