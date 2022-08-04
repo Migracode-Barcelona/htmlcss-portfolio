@@ -7,61 +7,81 @@
  * 
  */
 
- .bg-light {
+.bg-light {
     background-color: #71DFE7 !important
  }
 
- .navbar-brand, .nav-link {
+.navbar-brand, .nav-link {
     color: rgb(10, 2, 77) !important; 
     font-family: sans-serif;
  }
 
- .navbar-brand {
+.navbar-brand {
     display: flex;
     padding-top: 1em;
  }
 
- .navbar-brand > p {
+.navbar-brand > p {
     margin-top: 0.2em;
     margin-left: 0.2em;
  }
 
- main {
+main {
     background-color: #fffef2;
  }
 
- .home {
-    background-image: url("/img/beach.jpg");
-    background-size: cover;
-    height:700px;
+.home {
+    background-color: #ebd3c7;
     color: #6b2c19;
-    /* padding: 4em; */
+    position: relative;
  }
 
- .home > h1:first-child {
-    max-width: 23em;
-    padding-top: 4em;
-    padding-left: 2em;
+.home > h1:first-child {
+    position: absolute;
+    top: 10%;
+    left: 10%;
  }
 
 .home > h1 {
-    max-width: 23em;
-    padding-left: 2em;
+    position: absolute;
+    top: 20%;
+    left: 13%;
 }
 
-@media only screen and (max-width: 400px) {
-    .home {
+.home img {
+   width: 100%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 412px) {
+    /* .home {
         height: 300px;
-    }
+    } */
 
     .home > h1{
-        padding-top: 0em;
-        padding-left: 0.5em;
+      top: 50%;
+      left: 8%;
     }
 
     .home > h1:first-child {
-        padding-top: 4em;
-        padding-left: 0.5em;
+      top: 35%;
+      left: 8%;
     }
 }
- 
+
+@media only screen and (min-width: 360px) {
+   .home > h1{
+      top: 40%;
+      left: 5%;
+    }
+
+    .home > h1:first-child {
+      top: 27%;
+      left: 5%;
+    }  
+}
