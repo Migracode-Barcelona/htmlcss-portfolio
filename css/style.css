@@ -52,7 +52,27 @@ main {
    width: 100%;
 }
 
+.about-me {
+  background-color: #ebd3c7;
+  color: #6b2c19;
+  display: flex;
+  flex-direction: row;
+}
 
+.portrait {
+  width: 50%;
+  text-align: center;
+  padding: 1em;
+}
+
+.portrait img {
+  width: 50%;
+}
+
+.text-self {
+  width: 50%;
+  height: 100%;
+}
 
 
 
