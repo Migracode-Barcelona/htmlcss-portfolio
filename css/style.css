@@ -67,11 +67,20 @@ main {
 
 .portrait img {
   width: 50%;
+  border-radius: 2em;
+  border-style: double;
 }
 
 .text-self {
   width: 50%;
   height: 100%;
+  padding: 3em;
+}
+
+.text-self h2 {
+  line-height: 1.6;
+  text-align:justify;
+  font-family: sans-serif;
 }
 
 
