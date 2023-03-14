@@ -11,11 +11,9 @@ The page should **NOT** use any framework like Bootstrap.
 
 ### Step 1
 
-- Fork and clone this repository
+This repository should includes a `.html` page and a linked `.css` file applies a consistent color scheme to links and text on your page.
 
-It should include the following elements:
-
-- The `.html` page and a linked `.css` file applies a consistent color scheme to links and text on your page.
+You should add:
 - A page header with a title and description for the site.
 - A projects section with three projects, each including a title, summary and a link.
 
