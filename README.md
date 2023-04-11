@@ -41,4 +41,5 @@ You should add:
 - To publish your portfolio online with github.io, you have 2 choices: 
   1. Transfer ownership of this repository from Migracode-Barcelona to you and rename it: [your-user-account].github.io
   2. Fork this repository, name it: [your-user-account].github.io 
-Then follow [these instructions](https://migracode-barcelona.gitbook.io/syllabus/guides/git#how-to-publish-your-website-in-githubio) to make it public!
+
+  Then follow [these instructions](https://migracode-barcelona.gitbook.io/syllabus/guides/git#how-to-publish-your-website-in-githubio) to make it public!
