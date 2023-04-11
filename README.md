@@ -1,7 +1,8 @@
 # HTML/CSS Project
 
-## Introduction
+> 📣 This project is one of the most important of the MigraCode curriculum. The need for a portfolio will follow you during your whole web developer career. It will be what makes you stand out to recruiters!
 
+## Introduction
 - The idea is to build a personal portfolio, that you can use in the future adding all the projects you will do in this amazing course
 - Here an [example](https://kristiinacwalina.github.io/)
 
