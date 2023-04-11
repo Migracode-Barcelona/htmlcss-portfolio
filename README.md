@@ -5,6 +5,12 @@
 - The idea is to build a personal portfolio, that you can use in the future adding all the projects you will do in this amazing course
 - Here an [example](https://kristiinacwalina.github.io/)
 
+## 👩‍🔧 To work on the website from inside your CodeSpace or Visual Studio: 
+
+Press Ctrl + Shift + P (Cmd + Shift + P on mac) and type: `CodeSwing: Open Swing...`
+
+Press Enter, when you see `/workspaces/htmlcss-zoo/`, press Enter again. You should see the website preview on the right!
+
 ## Steps
 
 The page should **NOT** use any framework like Bootstrap.
@@ -31,4 +37,4 @@ You should add:
   
   ### Step 3
   
-- Rename your repository to your-user-account.github.io and follow [these instructions](https://migracode-barcelona.gitbook.io/syllabus/guides/git#how-to-publish-your-website-in-githubio) to make it public How to publish with github.io
+- To to publish with github.io: fork this repository, name it: [your-user-account].github.io and follow [these instructions](https://migracode-barcelona.gitbook.io/syllabus/guides/git#how-to-publish-your-website-in-githubio) to make it public!
