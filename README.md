@@ -36,9 +36,9 @@ You should add:
     <img src="./.content/blog-sketch-week-1.png" style="border: 1px solid #bababa;">
   </a>
   
-  ### Step 3
+### Step 3
   
 - To publish your portfolio online with github.io, you have 2 choices: 
-1. Transfer ownership of this repository from Migracode-Barcelona to you and rename it: [your-user-account].github.io
-2. Fork this repository, name it: [your-user-account].github.io 
-- Follow [these instructions](https://migracode-barcelona.gitbook.io/syllabus/guides/git#how-to-publish-your-website-in-githubio) to make it public!
+  1. Transfer ownership of this repository from Migracode-Barcelona to you and rename it: [your-user-account].github.io
+  2. Fork this repository, name it: [your-user-account].github.io 
+Then follow [these instructions](https://migracode-barcelona.gitbook.io/syllabus/guides/git#how-to-publish-your-website-in-githubio) to make it public!
